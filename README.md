@@ -21,8 +21,16 @@ Each point is represented by a row in the CSV, for example:
 
 # Searching
 
-By default, all columns are full-text searchable (maybe a future option to omit certain columns?) and fielded searches are also possible.
+By default, all columns are full-text searchable.
 
 - a search for `mann` will find items 1 and 4 (partial match on "Manndible")
 - a search for `library` will find items 1, 2, and 4
+
+
+# Future plans
+
+In a future version, fielded searches will be allowed:
+
 - a search for `name:library` will find items 1 and 2, but not 4
+
+It will also be possible to specify which fields are searchable, and which are displayed.
