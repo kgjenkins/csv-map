@@ -318,4 +318,3 @@ function search(q, showid) {
     map.fitBounds(bounds.pad(0.03));
   }
 }
-
